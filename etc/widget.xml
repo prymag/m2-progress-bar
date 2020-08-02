@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget class="Prymag\ProgressBar\Block\Widget\ProgressBar" id="prymag_progress_bar">
+		<label>Prymag Progress Bar</label>
+		<description>Progress Bar</description>
+		<parameters>
+            
+            <parameter name="title" xsi:type="text" required="true" visible="true" sort_order="10">
+                <label>Title</label>
+            </parameter>
+			
+			<parameter name="percent" xsi:type="text" required="true" visible="true" sort_order="20">
+                <label>Percent</label>
+            </parameter>
+			
+			<parameter name="percent_label" xsi:type="text" visible="true" sort_order="20">
+                <label>Percent Label</label>
+				<description>Leave empty to use percent value instead.</description>
+            </parameter>
+			
+            
+		</parameters>
+	</widget>
+</widgets>
